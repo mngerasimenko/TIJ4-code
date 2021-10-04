@@ -1,9 +1,11 @@
-//: innerclasses/GreenhouseControls.java
+package innerclasses;//: innerclasses/GreenhouseControls.java
 // This produces a specific application of the
 // control system, all in a single class. Inner
 // classes allow you to encapsulate different
 // functionality for each type of event.
-import innerclasses.controller.*;
+
+import innerclasses.controller.Controller;
+import innerclasses.controller.Eventt;
 
 public class GreenhouseControls extends Controller {
   private boolean light = false;
